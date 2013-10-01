@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <!-- <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/repeat_header" >
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp" >
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp" >
+
+                <Button
+                    android:id="@+id/refresh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/refresh" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/user_shop_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/metal" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Search"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </FrameLayout> -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gps_logo_search" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#F1F1F1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" >
+
+            <EditText
+                android:id="@+id/tvSeach"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:hint="Search web" >
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/ibSearch"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_search_category_default" >
+            </ImageButton>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvResults"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1F1F1" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

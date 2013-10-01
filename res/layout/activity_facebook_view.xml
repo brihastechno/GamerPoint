@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_ui_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <com.facebook.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp"
+            facebook:confirm_logout="false"
+            facebook:fetch_user_info="true" />
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#AFDEFE"
+                android:textSize="18sp" />
+
+            <com.facebook.widget.ProfilePictureView
+                android:id="@+id/profilePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                facebook:preset_size="normal" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/postStatusUpdateButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Post Status Update"
+                        android:textColor="#303040" />
+
+                    <Button
+                        android:id="@+id/postPhotoButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Post Photo"
+                        android:textColor="#303040" />
+
+                    <Button
+                        android:id="@+id/pickFriendsButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pick Some Friends"
+                        android:textColor="#303040" />
+
+                    <Button
+                        android:id="@+id/pickPlaceButton"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pick Place"
+                        android:textColor="#303040" />
+
+                    <Button
+                        android:id="@+id/button_news_feed"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="News_feed"
+                        android:textColor="#303040" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homescreen" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/repeat_header" >
+
+        <Button
+            android:id="@+id/Back"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/arrow" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp" >
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp" >
+
+                <Button
+                    android:id="@+id/refresh"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/refresh" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp" >
+
+                <ImageView
+                    android:id="@+id/user_shop_image"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/metal" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+       
+            android:textColor="@android:color/white"
+           android:textSize="@dimen/title_text_size"  />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="106dp"
+        android:layout_marginTop="110dp" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/black"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp" >
+
+            <LinearLayout
+                android:id="@+id/lay_to_flip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left" >
+
+                <FrameLayout
+                    android:id="@+id/frame_home"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_black" >
+
+                    <Button
+                        android:id="@+id/button_home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="1dp"
+                        android:background="@drawable/icon_home" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_social"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_social"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_social" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_games"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_games"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_game" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_store"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_store"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_store" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_more"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_more" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_clouds"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_clouds"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                android:background="@drawable/icon_cloud"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/frame_videos"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                             android:background="@drawable/icon_tv"/>
+                </FrameLayout>
+                
+                           <FrameLayout
+                    android:id="@+id/frame_music"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+
+                    <Button
+                        android:id="@+id/button_music"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                       android:background="@drawable/icon_music" />
+                </FrameLayout>
+                                <FrameLayout
+                    android:id="@+id/frame_next"
+                    android:layout_width="157dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/icon_back_grey" >
+                
+                                <Button
+                        android:id="@+id/button_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/icon_next"
+                        android:singleLine="false"
+       
+                    />
+                             </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>

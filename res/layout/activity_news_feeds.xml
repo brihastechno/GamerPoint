@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c4cde0"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/relative"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#3B5998" >
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="15dp"
+            android:text="News Feed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="126dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/facebooklogo" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#c4cde0"
+        android:divider="#c4cde0"
+        android:dividerHeight="10dp"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

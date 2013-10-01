@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTutorialInfo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1F1F1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text="TextView"
+        android:textColor="#12c"
+        android:textSize="20dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="3dip"
+        android:text="TextView"
+        android:textColor="#093" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvSnippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="2dip"
+        android:text="TextView"
+        android:textColor="#444"
+        android:textSize="15dip"
+        android:textStyle="normal" >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp" >
+
+            <ImageView
+                android:id="@+id/fragment_image"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_iamgeview_first"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" 
+            android:background="#E1E1E1">
+
+            <Button
+                android:id="@+id/previous_click"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left|center"
+                android:background="@drawable/arrow_left" />
+
+            <Button
+                android:id="@+id/next_click"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right|center"
+                android:background="@drawable/arrow_right" />
+
+            <LinearLayout android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ViewFlipper
+                    android:id="@+id/viewFlipper"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="40dp" >
+
+                    <ImageView
+                        android:id="@+id/inside_frame_imageview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/ads" />
+
+                    <ImageView
+                        android:id="@+id/inside1_frame_imageview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/watch" />
+
+                    <ImageView
+                        android:id="@+id/inside2_frame_imageview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/horse" />
+                </ViewFlipper>
+                </LinearLayout>
+            
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/second_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/click_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/click_image" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/twitter_200" />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/facebook_200" />
+
+            <ImageView
+                android:id="@+id/Pinterest"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/pinterest_200" />
+
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/google_200" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

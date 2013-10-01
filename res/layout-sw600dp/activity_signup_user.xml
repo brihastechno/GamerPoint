@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homescreen" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/backs"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="930dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp" >
+
+                        <ImageView
+                            android:id="@+id/user_imageView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/metal_2" />
+                    </FrameLayout>
+
+                    <Button
+                        android:id="@+id/button_upload_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/button_login"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Upload Image"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edit_user_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="User Name"
+                        android:inputType="textEmailAddress" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edit_first_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="First Name"
+                        android:inputType="textEmailAddress" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edit_last_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Last Name"
+                        android:inputType="textEmailAddress" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edit_email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress" >
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/edit_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:inputType="textPassword" />
+
+                    <EditText
+                        android:id="@+id/edit_Confirm_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="Confirm Password"
+                        android:inputType="textPassword" />
+
+                    <Button
+                        android:id="@+id/button_Submit"
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_login"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Submit"
+                        android:textColor="@android:color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView_signup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="25dp"
+                        android:text="Already have an account?"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</LinearLayout>

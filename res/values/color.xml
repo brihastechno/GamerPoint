@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="green_color">#599F1E</color>
+    <color name="red_color">#FF0505</color>
+    <color name="ornage_color"> #FF8800</color>
+    <color name="gray">#ff888888</color>
+    <color name="app_background">#fff5f5f5</color>
+    <color name="_press_start">#3C3C3C</color>
+    <color name="_press_end">#1C1C1C</color>
+    <color name="text_tab_selected">#5d5d5d</color>
+    <color name="text_tab_unselected">#838183</color>
+    <color name="instagram_app_background">#5A5A5A</color>
+    <color name="instagram_press_start">#969696</color>
+    <color name="instagram_press_end">#787878</color>
+    <color name="instagram_text_tab_selected">#1E1E1E</color>
+    <color name="instagram_text_tab_unselected">#5A5A5A</color>
+
+</resources>

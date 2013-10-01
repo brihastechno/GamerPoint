@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">GamerPointsStore</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="applicationId">265307690218720</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="action_eating">What are you eating?</string>
+    <string name="action_location">Where are you?</string>
+    <string name="action_people">With whom?</string>
+    <string name="action_eating_default">Select a meal</string>
+    <string name="action_location_default">Select a place</string>
+    <string name="action_people_default">Select friends</string>
+    <string name="announce">Announce</string>
+    <string name="login">Login</string>
+    <string name="settings">Settings</string>
+    <string name="select_meal">Select a meal</string>
+    <string name="result_dialog_title">Result</string>
+    <string name="result_dialog_button_text">Thanks!</string>
+    <string name="result_dialog_text">Posted Open Graph action, id: %1$s</string>
+    <string name="progress_dialog_text">Announcing, please wait...</string>
+    <string name="single_user_selected">%1$s</string>
+    <string name="two_users_selected">%1$s and %2$s</string>
+    <string name="multiple_users_selected">%1$s and %2$s others</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="error_dialog_button_text">OK</string>
+    <string name="error_dialog_default_text">No response from server.</string>
+    <string name="no_location_error">Could not obtain your current location</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="error_authentication_retry">An error occurred that requires your attention. %1$s</string>
+    <string name="error_authentication_reopen">An error occurred, please re-login.</string>
+    <string name="error_permission">Please allow us to post on your behalf.</string>
+    <string name="error_server">The server is busy, please retry later.</string>
+    <string name="error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="instagram_client_id">3c0c641b5f784e64843242f2190f28f7</string>
+    <string name="instagram_secret_id">20d05264a12048b682c8e91cfd953669</string>
+
+    <string-array name="food_types">
+        <item>Cheeseburger</item>
+        <item>Pizza</item>
+        <item>Hotdog</item>
+        <item>Italian</item>
+        <item>French</item>
+        <item>Chinese</item>
+        <item>Thai</item>
+        <item>Indian</item>
+    </string-array>
+    <string-array name="food_og_urls">
+        <item>http://samples.ogp.me/314483151980285</item> <!-- Cheeseburger -->
+        <item>http://samples.ogp.me/314483221980278</item> <!-- Pizza -->
+        <item>http://samples.ogp.me/314483265313607</item> <!-- Hotdog -->
+        <item>http://samples.ogp.me/314483348646932</item> <!-- Italian -->
+        <item>http://samples.ogp.me/314483375313596</item> <!-- French -->
+        <item>http://samples.ogp.me/314483421980258</item> <!-- Chinese -->
+        <item>http://samples.ogp.me/314483451980255</item> <!-- Thai -->
+        <item>http://samples.ogp.me/314483491980251</item> <!-- Indian -->
+    </string-array>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/instagram_header_file" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="NEWS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="@drawable/instagram_header_file"
+            android:padding="7dp"
+            android:src="@drawable/icon_refresh" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp" >
+
+        <Button
+            android:id="@+id/follower_button_instagram"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/instagram_profile_grid_back"
+            android:text="Following"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#2D2D2D"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/you_button_instagram"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/instagram_profile_grid_back"
+            android:text="You"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#4B4B4B"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_View"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:divider="#969696"
+        android:dividerHeight="1px" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/region_dark_back"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/login_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_tweet_Login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:textColor="#303040" />
+
+        <Button
+            android:id="@+id/btn_tweet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Tweet"
+            android:textColor="#303040" />
+
+        <Button
+            android:id="@+id/btn_clear_credentials"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textColor="#303040" />
+
+        <Button
+            android:id="@+id/btn_fetch_tweets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="FetchTweets"
+            android:textColor="#303040" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>
